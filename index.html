@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+   <link rel="stylesheet" type="text/css" href="style.css">
+<body>
+    <h1>VWITS Training Contact Form.</h1>
+ <div class="info"><a href="https://www.grandvincent-marion.fr" target="_blank"><p> Designed By <i class="fa fa-heart"></i> Kiran Pandit </p></a></div>
+
+<form>
+      <h1>Should you have any questions, please do not hesitate to contact me :</h1>
+      
+  <div class="contentform">
+      <div id="sendmessage"> Your message has been sent successfully. Thank you. </div>
+
+
+      <div class="leftcontact">
+                <div class="form-group">
+                  <p>Surname<span>*</span></p>
+                  <span class="icon-case"><i class="fa fa-male"></i></span>
+                      <input type="text" name="nom" id="nom" data-rule="required" />
+              <div class="validation"></div>
+     </div> 
+
+          <div class="form-group">
+          <p>Name <span>*</span></p>
+          <span class="icon-case"><i class="fa fa-user"></i></span>
+              <input type="text" name="prenom" id="prenom" data-rule="required" />
+              <div class="validation"></div>
+          </div>
+
+          <div class="form-group">
+          <p>E-mail </p>	
+          <span class="icon-case"><i class="fa fa-envelope-o"></i></span>
+              <input type="email" name="email" id="email" data-rule="email" />
+              <div class="validation"></div>
+          </div>	
+
+          <div class="form-group">
+          <p>Company Name</p>
+          <span class="icon-case"><i class="fa fa-home"></i></span>
+              <input type="text" name="society" id="society" />
+              <div class="validation"></div>
+          </div>
+
+          <div class="form-group">
+          <p>Company Branch </p>
+          <span class="icon-case"><i class="fa fa-location-arrow"></i></span>
+              <input type="text" name="adresse" id="adresse" />
+              <div class="validation"></div>
+          </div>
+
+          <div class="form-group">
+          <p>Postcode </p>
+          <span class="icon-case"><i class="fa fa-map-marker"></i></span>
+              <input type="text" name="postal" id="postal" />
+              <div class="validation"></div>
+          </div>	
+
+
+
+  </div>
+
+  <div class="rightcontact">	
+
+          <div class="form-group">
+          <p>City </p>
+          <span class="icon-case"><i class="fa fa-building-o"></i></span>
+              <input type="text" name="ville" id="ville" />
+              <div class="validation"></div>
+          </div>	
+
+          <div class="form-group">
+          <p>Phone number <span>*</span></p>	
+          <span class="icon-case"><i class="fa fa-phone"></i></span>
+              <input type="text" name="phone" id="phone" data-rule="maxlen:10" />
+              <div class="validation"></div>
+          </div>
+
+          <div class="form-group">
+          <p>Function </p>
+          <span class="icon-case"><i class="fa fa-info"></i></span>
+              <input type="text" name="fonction" id="fonction" />
+              <div class="validation"></div>
+          </div>
+
+          <div class="form-group">
+          <p>Subject <span>*</span></p>	
+          <span class="icon-case"><i class="fa fa-comment-o"></i></span>
+              <input type="text" name="sujet" id="sujet" data-rule="required" />
+              <div class="validation"></div>
+          </div>
+      
+          <div class="form-group">
+          <p>Message <span>*</span></p>
+          <span class="icon-case"><i class="fa fa-comments-o"></i></span>
+              <textarea name="message" rows="14" data-rule="required" ></textarea>
+              <div class="validation"></div>
+          </div>	
+  </div>
+  <button type="submit" onclick="location.href='https://mynewsite110.s3.amazonaws.com/htmlsite/form.html'" class="bouton-contact">Send</button>
+</form>	
+
+</body>
+</html>
