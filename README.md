@@ -7,7 +7,7 @@ Basic website of  HTML CSS
 
 ![App Screenshot](https://raw.githubusercontent.com/pkiran1017/contactform/main/front%20page1.jpg)
 
-# Page2
+### Page2
 
 ![App Screenshot](https://raw.githubusercontent.com/pkiran1017/contactform/main/thanks.jpg)
 
